@@ -2,10 +2,23 @@
 brew install
 
 
-brew cask install alfred
-brew cask install hazel
 
-
+# Install Fonts
 brew cask install font-nexa
 brew cask install font-inconsolata
 brew cask install font-roboto
+
+echo
+brew cask install --appdir="/Applications" alfred
+brew cask install --appdir="/Applications" dropbox
+brew cask install --appdir="/Applications" little-snitch
+brew cask install --appdir="~/Applications" vlc
+brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="~/Applications" hazel
+brew cask install --appdir="/Applications" google-chrome
+brew cask install --appdir="/Applications" firefox
+
+echo Install Dev Apps
+brew cask install --appdir="/Applications" webstorm
+brew cask install --appdir="/Applications" pycharm-pro
+
