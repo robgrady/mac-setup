@@ -1,0 +1,11 @@
+# Brew Script
+brew install
+
+
+brew cask install alfred
+brew cask install hazel
+
+
+brew cask install font-nexa
+brew cask install font-inconsolata
+brew cask install font-roboto
